@@ -1,0 +1,145 @@
+body{
+	background-color: #f5f8fa;
+}
+
+
+.wizard,
+.wizard .nav-tabs,
+.wizard .nav-tabs .nav-item {
+	position: relative;
+}
+.wizard .nav-tabs:after {
+	content: "";
+	width: 80%;
+	border-bottom: solid 2px #ccc;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top: 38%;
+	z-index: -1;
+}
+.wizard .nav-tabs .nav-item .nav-link {
+	width: 70px;
+	height: 70px;
+	margin-bottom: 6%;
+	background: white;
+	border: 2px solid #ccc;
+	color: #ccc;
+	z-index: 10;
+}
+.wizard .nav-tabs .nav-item .nav-link:hover {
+	color: #333;
+	border: 2px solid #333;
+}
+.wizard .nav-tabs .nav-item .nav-link.active {
+	background: #fff;
+	border: 2px solid #0dcaf0;
+	color: #0dcaf0;
+}
+.wizard .nav-tabs .nav-item .nav-link:after {
+	content: " ";
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	opacity: 0;
+	margin: 0 auto;
+	bottom: 0px;
+	border: 5px solid transparent;
+	border-bottom-color: #0dcaf0;
+	transition: 0.1s ease-in-out;
+}
+
+.nav-tabs .nav-item .nav-link.active:after {
+	content: " ";
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	opacity: 1;
+	margin: 0 auto;
+	bottom: 0px;
+	border: 10px solid transparent;
+	border-bottom-color: #0dcaf0;
+}
+.wizard .nav-tabs .nav-item .nav-link svg {
+	font-size: 25px;
+}
+
+
+.container {
+    text-align: end;
+}
+
+
+.form-check{
+	font-size: 18px;
+    font-weight: 700;
+    padding: 2% 0;
+}
+
+
+.col-sub {
+    background-color: #fff;
+    padding: 0 5%;
+}
+
+
+.direction{
+	direction: rtl;
+
+}
+
+
+.scb-title{
+	text-align: center;
+    color: #fff;
+    background-color: #0dcaf0;
+    border-radius: 25px;
+    padding: 17px 10px 1px;
+    margin-bottom: 10%;
+}
+
+
+.tab-content{
+	min-height: 400px;
+}
+
+.tab-content div span{
+	float: left;
+}
+
+
+.tab-sub{
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-tabs{
+	margin-top: 15%;
+}
+
+.total div span{
+	float: left;
+    margin-left: -1.5em;
+}
+
+.total{
+	margin: 11% 0%;
+    background-color: #ddd;
+    padding: 4% 5% 4% 10%;
+    border-radius: 15px;
+}
+
+
+.register div input{
+	text-align: end;
+}
+
+.form-group{
+	margin: 3% 0px;
+}
+
+.form-control{
+	background-color: #ddd;
+	padding: 1%;
+}
