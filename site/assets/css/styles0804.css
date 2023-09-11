@@ -173,6 +173,7 @@ header.main-header .inner-header .nav-links nav .nav-items > li a {
   text-decoration: none;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  font-weight: bold;
 }
 header.main-header .inner-header .nav-links nav .nav-items > li.lang_icon {
   margin-right: 5px;
@@ -763,11 +764,11 @@ header .social ul {
 /*=============== Our Services ===============*/
 .our-Products {
   position: relative;
-  background-color: #F7F8FB;
+  background-color: #fff;
   scroll-margin-top: 50px;
-  margin-top: -38px;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
+  margin-top: 0px;
+  /* border-top-right-radius: 50px; */
+  /* border-top-left-radius: 50px; */
   -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.03);
   box-shadow: 0 10px 60px rgba(0, 0, 0, 0.03);
   overflow: hidden;
@@ -870,10 +871,10 @@ header .social ul {
   position: relative;
   background-color: #0074D9;
   scroll-margin-top: 50px;
-  margin-top: -38px;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
-  -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.03);
+  margin-top: 0px;
+  /* border-top-right-radius: 50px; */
+  /* border-top-left-radius: 50px; */
+  /* -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.03); */
   box-shadow: 0 10px 60px rgba(0, 0, 0, 0.03);
   overflow: hidden;
   scroll-margin-top: 100px;
@@ -1681,13 +1682,13 @@ header .social ul {
 .partners {
   background-color: #FFFFFF;
   box-shadow: 0 10px 60px rgba(50, 195, 182, 0.09);
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
+  /* border-top-right-radius: 50px; */
+  /* border-top-left-radius: 50px; */
+  /* border-bottom-right-radius: 50px; */
+  /* border-bottom-left-radius: 50px; */
   position: relative;
   z-index: 22;
-  max-width: 98%;
+  max-width: 100%;
   margin: 70px auto -110px;
   overflow: hidden;
 }
