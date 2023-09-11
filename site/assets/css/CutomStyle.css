@@ -39,6 +39,18 @@
     color: #fff;
   }
 
+  .our-Products-single {
+    position: relative;
+    background-color: #F7F8FB;
+    scroll-margin-top: 50px;
+    margin-top: -400px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.03);
+    overflow: hidden;
+    scroll-margin-top: 100px;
+  }
 
   .our-Products-Page {
     position: relative;
@@ -247,9 +259,11 @@
 
 
     .card-title-singleblog{
-      text-align: center;
+      text-align: right;
+   
       font-weight: bolder;
-      font-size: 35px;
+      font-size: 18px;
+      color: #0074d9;
       }
 
       .card-text-singleblog{
@@ -359,7 +373,7 @@
   -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.08);
   box-shadow: 0 10px 60px rgba(0, 0, 0, 0.08);
   border-radius: 50px;
-  margin-right: 2%;
+  /* margin-right: 2%; */
   text-align: center;
 
 }
@@ -467,6 +481,11 @@
   top: 0;
   left: 0;
 }
+a,a:hover,a:active{
+  text-decoration: none;
+  color: #000;
+}
+
 .our-Price-Page .Products-items-wrapper .service-item .icon-pattern img {
   max-width: 100px;
 }
@@ -521,112 +540,80 @@
   height: 1000px;
 }
 
-/* 
-.aa{
-  float: left;
-}
-[dir] .el-card{
-  .border-radius: 4px;
-  border: 1px solid #EBEEF5;
-  background-color: #FFFFFF;
-}
-[dir] .el-card__body {
-  padding: 20px;
+/* =============== Start business-type welcome =============== */
+.bussiness-types-welcome {
+  direction: ltr;
 }
 
-[dir] .vue-form-wizard {
-  padding-bottom: 20px;
-}
-[dir] .vue-form-wizard .wizard-header {
-  padding: 15px;
-  border-radius: 3px 3px 0 0;
-  text-align: center;
-}
-.vue-form-wizard .wizard-header {
-  position: relative;
-}
-.vue-form-wizard.md .wizard-navigation .wizard-progress-with-circle{
-  position: relative;
-  top: 40px;
-  height: 4px;
-
-}
-[dir] .vue-form-wizard .wizard-nav-pills {
-  margin-top: 0;
-  text-align: center;
-}
-[dir=rtl] .vue-form-wizard .wizard-nav {
-  padding-right: 0;
-}
-[dir] .vue-form-wizard .wizard-nav {
-  margin-bottom: 0;
-}
-.vue-form-wizard .wizard-nav-pills {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-.vue-form-wizard .wizard-nav {
-  list-style: none;
-}
-.vue-form-wizard .wizard-nav-pills a, .vue-form-wizard .wizard-nav-pills li {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-}
-.vue-form-wizard .wizard-nav>li {
-  position: relative;
-  display: block;
+.bussiness-types-welcome .bussiness-types-welcome-text {
+  text-align: center !important;
 }
 
-[dir] .vue-form-wizard .wizard-nav-pills>li.active>a, [dir] .vue-form-wizard .wizard-nav-pills>li.active>a:focus, [dir] .vue-form-wizard .wizard-nav-pills>li.active>a:hover {
-  background-color: transparent;
-  -webkit-transition: font-size .2s linear;
+.bussiness-types-welcome .bussiness-types-welcome-svg-1 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  right: auto;
+  left: -280px;
+  top: auto;
+  bottom: 85px;
 }
-[dir] .vue-form-wizard .wizard-nav-pills>li>a.disabled {
-  cursor: default;
+
+mark {
+  padding-top: 60px;
 }
-[dir] .vue-form-wizard .wizard-icon-circle {
-  border: 3px solid #f3f2ee;
-  border-radius: 50%;
+.industries{
+  background-color: #fff!important;
+}
+.industries .industries-items{
+  margin-bottom: 30px;
+}
+.industries .industries-items div {
+  text-align: center !important;
+}
+/* ===================== Start Industries ==================== */
+.industries .industries-items .industries-item-content{
+  cursor: pointer;
+
+}
+.industries .industries-item-content{
+  border: 1px solid #e5e5e5;
+}
+.industries  .industries-item-content {
+  border: 1px solid #e5e5e5;
+  padding: 14px 15px 20px 15px;
+}
+
+/* ===================== Start Industries ==================== */
+
+/* ==================== Start Techstation System Cloud or Server ================ */
+
+.system-cloud-server ul li {
+  color: #555;
+}
+.system-cloud-server ul li i {
+  color: #009b72;
+}
+.system-cloud-server .cloud-card-contain {
+  -webkit-box-shadow: 0 2px 4px rgba(3, 27, 78, .1);
+  box-shadow: 0 2px 4px rgba(3, 27, 78, .1);
   background-color: #fff;
 }
-.vue-form-wizard.md .wizard-icon-circle {
-  width: 70px;
-  height: 70px;
-  font-size: 24px;
+.system-cloud-server .cloud-card-contain .cloud-text-contain {
+  -webkit-box-shadow: 0 2px 4px rgba(3, 27, 78, .1);
+  box-shadow: 0 2px 4px rgba(3, 27, 78, .1);
+  border-top: 1px solid rgba(0, 0, 0, .08);
+  background-color: white;
 }
-.vue-form-wizard .wizard-icon-circle {
-  font-size: 18px;
-  font-weight: 600;
-  width: 70px;
-  height: 70px;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
+.cloud-card-contain .cloud-text-contain a {
+  color: #232f3e;
 }
-.vue-form-wizard * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-} */
+.cloud-card-contain .cloud-text-contain a:hover {
+  color: #009b72;
+}
 
-
+/* ==================== End Techstation System Cloud or Server ================ */
+/* ===================== Start Industries ==================== */
 
 @media (max-width: 576px) {
   .owl-item{
